@@ -1,0 +1,14 @@
+name: SwenlyCodes
+version: '1.0'
+main: ru.swenly.swenlycodes.SwenlyCodes
+api-version: 1.16
+authors: [ Swenly ]
+commands:
+  code:
+    description: Коды
+    aliases:
+      - promo
+      - promocode
+    usage: /code [add/add_cmd/del_cmd] <code> [command]
+  test:
+    description: Test
